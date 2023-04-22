@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+    color: #112B3C;
+}
+
+/* Header | First Page */
+
+header{
+    height: 100vh;
+}
+
+
+nav {
+    background-color: #2F89FC;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+li {
+    margin: 10px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: #F5F5F5;
+    padding: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+li a:hover {
+    color: rgb(250, 246, 246);
+    background-color: #385dff;
+    border-radius: 10px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+i {
+    padding: 3px;
+}
+
+#brandName {
+    color: #F5F5F5;
+    font-size: 2.5rem;
+}
+
+#firstPage {
+    padding: 7% 12.8% 10%;
+    display: flex;
+}
+
+#firstPageImg {
+    border-radius: 50%;
+}
+
+#firstPagePara {
+    width: 70%;
+    padding: 5% 0 5%;
+}
+
+.portfoliobtn {
+    padding: 10px;
+    color: #F5F5F5;
+    border: none;
+    background-color: #2F89FC;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.portfoliobtn:hover {
+    color: #F5F5F5;
+    background-color: #385dff;
+    border-radius: 10px;
+}
+
+/* services section */
+
+.servicehead {
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F89FC;
+    /* padding-bottom: 15rem; */
+    height: 80vh;
+}
+
+.serv {
+    margin: 3rem;
+    height: 15rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: #d8e4eb;
+    /* border: 5px solid #333333; */
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+}
+
+.cardBtn {
+    padding: 10px;
+    color: #F5F5F5;
+    border: none;
+    background-color: #2F89FC;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+.cardBtn:hover {
+    color: #F5F5F5;
+    background-color: #385dff;
+    border-radius: 10px;
+}
+
+
+/* Testimonial Section */
+.testimonial {
+    padding: 2rem;
+    background-color: gray;
+}
+
+.contactPage {
+    height: 50vh;
+    padding: 5rem 3rem;
+    text-align: center;
+    background-color: #2F89FC;
+}
+
+.contactHeading {
+    padding: 3rem auto 1rem auto;
+    font-size: 4rem;
+    color: #F5F5F5;
+}
+
+.contactPara {
+    font-size: 2rem;
+    color: #F5F5F5;
+}
+
+input{
+    border: 1px #333333 solid;
+}
+
+footer {
+    height: 30vh;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+    background-color: #373737;
+    color: #cccccc;
+}
+
+footer > a {
+    display: inline-block;
+    margin: 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #d8e4eb;
+}
+
+footer > p {
+    margin: 3rem;
+}
+
+.testimonial {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.testimonialText {
+    margin: 10px;
+}
+
+.testimonialImg {
+    border-radius: 50%;
+    width: 6rem;
+}
